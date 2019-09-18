@@ -41,7 +41,7 @@
     "codelyzer": "^5.0.1",
     "jasmine-core": "~3.4.0",
     "jasmine-spec-reporter": "~4.2.1",
-    "karma": "^3.1.1",
+    "karma": "^4.3.0",
     "karma-chrome-launcher": "~2.2.0",
     "karma-cli": "2.0.0",
     "karma-coverage-istanbul-reporter": "^2.0.5",
@@ -51,7 +51,7 @@
     "postcss-loader": "3.0.0",
     "protractor": "^5.4.2",
     "ts-node": "~8.0.3",
-    "tslint": "^5.15.0",
+    "tslint": "^5.20.0",
     "typescript": "3.5.3"
   }
 }

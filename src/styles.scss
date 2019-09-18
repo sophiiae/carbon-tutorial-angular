@@ -1,6 +1,10 @@
+@import "./assets/carbon-overrides.scss";
+
 $feature-flags: (
-	css--body: false, // we're providing our own body styles
-	css--reset: false // prevent thousands of resets being included...
+	grid-columns-16: true,
+	css--body: false,
+	// we're providing our own body styles
+		css--reset: false // prevent thousands of resets being included...
 );
 
 body {
@@ -25,12 +29,15 @@ body {
 	font-family: "IBM Plex Sans", Arial, sans-serif;
 
 	p {
-		@include type-style('expressive-paragraph-01');
+		@include type-style("expressive-paragraph-01");
 		max-width: 800px;
 	}
 
 	li {
-		@include type-style('body-long-02');
+		@include type-style("body-long-02");
 	}
 }
 
+.header-icon {
+	fill: white;
+}
